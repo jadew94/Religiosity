@@ -59,5 +59,13 @@ margin-top: 8px;
   float:right;
   margin-top:15px;
   padding-left: 5px;
+}
 
+.vl {
+  border-left: 2px solid #D8DAD3;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 400px;
 }
