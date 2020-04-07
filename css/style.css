@@ -8,6 +8,13 @@
   border-bottom: 2px solid #D8DAD3;
 }
 
+/* Green progress bar */
+hr {
+  border: 3px solid #7CEA9C;
+  width: 60px;
+  float: right;
+}
+
 #Course_Area {
   padding-top: 20px;
 }
