@@ -54,13 +54,18 @@ margin-top: 8px;
 }
 
 
-
+/* The 5 next to the Heart */
 #Lives {
   float:right;
   margin-top:15px;
   padding-left: 5px;
 }
 
+.time {
+  opacity: 0.5;
+}
+
+/* Centered gray line */
 .vl {
   border-left: 2px solid #D8DAD3;
   height: 500px;
@@ -68,4 +73,11 @@ margin-top: 8px;
   left: 50%;
   margin-left: -3px;
   top: 400px;
+}
+
+/* Centered Courses cards */
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
 }
