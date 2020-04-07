@@ -4,6 +4,10 @@
   height: 56px;
 }
 
+#border {
+  border-bottom: 2px solid #D8DAD3;
+}
+
 /* Fonts */
 
 h5 {
