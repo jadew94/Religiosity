@@ -4,8 +4,19 @@
 
 #Mermaid {
 float: left;
+margin-top: 8px;
 }
 
 #Heart {
   float: right;
+  margin-top: 17px;
+}
+
+#Lives {
+  float:right;
+}
+
+h5 {
+  font-family: 'Alegreya';
+  font-size: 22px;
 }
