@@ -1,5 +1,7 @@
 .container {
   background-color: white;
+  border-bottom: 2px solid #D8DAD3;
+  height: 56px;
 }
 
 
@@ -11,13 +13,13 @@ margin-top: 8px;
 
 #Heart {
   float: right;
-  margin-top: 17px;
+  margin-top: 18px;
 
 }
 
 #Lives {
   float:right;
-  margin-top:13px;
+  margin-top:15px;
   padding-left: 5px;
 
 }
