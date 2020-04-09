@@ -60,6 +60,11 @@ margin-top: 8px;
   margin-left: 15px;
 }
 
+.fa-chevron-down {
+  float:right;
+  padding-top: 2px;
+}
+
 
 /* The 5 next to the Heart */
 #Lives {
