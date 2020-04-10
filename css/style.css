@@ -8,6 +8,11 @@
   border-bottom: 2px solid #D8DAD3;
 }
 
+.card-overlay {
+  background: rgba(95, 95, 95, 0.5);
+}
+
+
 /* Green progress bar */
 hr {
   border: 3px solid #7CEA9C;
