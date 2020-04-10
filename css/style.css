@@ -15,6 +15,13 @@ hr {
   float: right;
 }
 
+/* Gray progress bar */
+hr.Empty {
+  border: 3px solid #D8DAD3;
+  width: 60px;
+  float: right;
+}
+
 #Course_Area {
   padding-top: 20px;
 }
@@ -80,7 +87,7 @@ margin-top: 8px;
 /* Centered gray line */
 .vl {
   border-left: 2px solid #D8DAD3;
-  height: 500px;
+  height: 1750px;
   position: absolute;
   left: 50%;
   margin-left: -3px;
