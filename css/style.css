@@ -8,7 +8,7 @@
   border-bottom: 2px solid #D8DAD3;
 }
 
-.blueHighlight {
+#blueHighlight {
   border-bottom: 2px solid #0073CF;
   background: rgba(0, 115, 207, .12)
 }
@@ -64,6 +64,7 @@ p{
 }
 
 figure {
+  margin: auto;
   font-family: 'Source Sans Pro';
   color: #959595;
   font-size: 16px;
