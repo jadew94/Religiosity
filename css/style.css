@@ -22,6 +22,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 70%;
 }
 
 /* Green progress bar */
@@ -72,6 +73,7 @@ figure {
 
 #blueText {
   color: #011638;
+  width: 70%;
 }
 
 /* Images */
