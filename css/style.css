@@ -4,6 +4,10 @@
   height: 56px;
 }
 
+#breakHeight {
+  height: 100px;
+}
+
 #border {
   border-bottom: 2px solid #D8DAD3;
 }
