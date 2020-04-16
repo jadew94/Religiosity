@@ -63,6 +63,16 @@ p{
   color: #011638;
 }
 
+figure {
+  font-family: 'Source Sans Pro';
+  color: #959595;
+  font-size: 16px;
+}
+
+#blueText {
+  color: #011638;
+}
+
 /* Images */
 #Mermaid {
 float: left;
