@@ -14,14 +14,22 @@
   </head>
   <body style="background-color:#F6F7F5;">
     <!-- Your Code Starts Here -->
-      <div class="container"> <!-- Start Navigation bar -->
-          <img src="images/mermaid.png" id="Mermaid" width="40" height="40" alt="Yellow Mermaid">
+      <div class="container"> <!-- Start Top Navigation bar -->
+          <img src="images/mermaid.png" id="Mermaid" width="40" height="40" alt="Yellow Mermaid">  <!-- Yellow mermaid icon -->
           <div class="right">  <!-- Heart and Lives -->
             <h5 id="Lives">5</h5>
-            <img src="images/heart.png" id="Heart" width="25" height="25" alt="Green heart">
-          </div>
+                 <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"> <!-- turns heart image into toggle -->
+                   <img src="images/heart.png" id="Heart" width="25" height="25" alt="Green heart">
+                 </a>
+          </div> <!-- End of Heart and Lives -->
           <h5 class="text-center pt-3">Ifá</h5>
-      </div> <!-- End Navigation bar -->
+        <div class="collapse" id="collapseExample"> <!-- collapse area for heart image -->
+          <div class="card card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          </div>
+        </div> <!-- End of collapse area for heart image -->
+
+      </div> <!-- End Top Navigation bar -->
 
       <div id="border"> <!-- Start History and Origins Description -->
         <i class="fas fa-chevron-left fa-2x" id="chevron"></i>
