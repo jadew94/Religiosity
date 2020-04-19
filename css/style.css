@@ -48,16 +48,15 @@ hr.Empty {
   float: right;
 }
 
-#card-divider {
+/* gray border/divider in religion collapse area */
+.grey-container,#card-divider {
   border: 1.5px solid #D8DAD3;
-  width: 100px;
 }
 
-#green-divider {
+/* green border/divider in religion collapse area */
+.green-container,#green-divider {
   border: 1.5px solid #7CEA9C;
-  width: 100px;
 }
-
 
 
 #Course_Area {
