@@ -48,6 +48,18 @@ hr.Empty {
   float: right;
 }
 
+#card-divider {
+  border: 1.5px solid #D8DAD3;
+  width: 100px;
+}
+
+#green-divider {
+  border: 1.5px solid #7CEA9C;
+  width: 100px;
+}
+
+
+
 #Course_Area {
   padding-top: 20px;
 }
@@ -128,10 +140,7 @@ margin-top: 8px;
   float:right;
   padding-top: 2px;
 }
-/*
-i.fa-plus {
-  display: inline-block;
-} */
+
 
 
 /* The 5 next to the Heart */
