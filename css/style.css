@@ -35,7 +35,7 @@
 }
 
 /* Green progress bar */
-hr {
+hr.in-progress {
   border: 3px solid #7CEA9C;
   width: 60px;
   float: right;
