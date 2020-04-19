@@ -15,7 +15,9 @@
   <body style="background-color:#F6F7F5;">
     <!-- Your Code Starts Here -->
       <div class="container-fluid top-Nav"> <!-- Start Top Navigation bar -->
+        <a data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1"> <!-- turns mermaid image into toggle -->
           <img src="images/mermaid.png" id="Mermaid" width="40" height="40" alt="Yellow Mermaid">  <!-- Yellow mermaid icon -->
+        </a>
           <div class="right">  <!-- Heart and Lives -->
             <h5 id="Lives">5</h5>
                  <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"> <!-- turns heart image into toggle -->
@@ -23,6 +25,39 @@
                  </a>
           </div> <!-- End of Heart and Lives -->
           <h5 class="text-center pt-3">Ifá</h5>
+
+
+          <div class="collapse pt-1" id="collapseExample1"> <!-- collapse area for mermaid image -->
+            <div class="card card-body">
+              <div class="container"> <!-- container for religion selection options -->
+                <div class="row">
+                  <div class="col"> <!-- Ifa religion column -->
+                    <div class="card" style="width: 10rem;"> <!-- Ifa religion card -->
+                      <div class="card-body shadow-sm rounded">
+                        <img src="images/mermaid.png" id="mermaid-choice" width="40" height="40" alt="yellow mermaid">
+                        <p class="text-center">Ifa</p>
+                      </div>
+                    </div> <!-- End of ifa religion option -->
+                  </div> <!-- End of ifa religion column -->
+                <div class="col"> <!-- Ifa religion column -->
+                  <div class="card" style="width: 10rem;"> <!-- Ifa religion card -->
+                    <div class="card-body shadow-sm rounded">
+                      <img src="images/mermaid.png" id="mermaid-choice1" width="40" height="40" alt="Grey heart">
+                      <p class="text-center">Select religion</p>
+                    </div>
+                  </div> <!-- End of ifa religion option -->
+                </div> <!-- End of ifa religion column -->
+              </div>
+            </div> <!-- end of container -->
+          </div>
+        </div> <!-- End of collapse area for religion selection -->
+
+
+
+
+
+
+
         <div class="collapse pt-1" id="collapseExample"> <!-- collapse area for heart image -->
           <div class="card card-body">
             <h4 class="text-center"> Your heart meter is full </h4>
